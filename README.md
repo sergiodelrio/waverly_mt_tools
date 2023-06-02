@@ -13,9 +13,9 @@ I have already downloaded the example corpus and run translation, postprocessing
 ### Organization and naming
 The way I do things is to have, within the main directory of the repo, separate directories for translation scripts, processing scripts, and scoring scripts, as well as separate directories for the corpus, for translation outputs, for (pre- and) postprocessing outputs, and for scoring outputs.  The whole pipeline is run in <tt>run_all.sh</tt>, and reflects this procedure:
 
-1. Get the base corpus—both the source and the reference(s) (for this example, by running <tt>download_example_corpus.sh</tt>; results are saved within the <tt>corpora</tt> directory structure;
+1. Get the base corpus—both the source and the reference(s) (for this example, by running <tt>download_example_corpus.sh</tt>); results are saved within the <tt>corpora</tt> directory structure;
 2. Run preprocessing if necessary (not necessary for this example);
-3. Get the source document (or the source document after preprocessing) from within the <tt>corpora</tt> directory, and translate it with each MT system under consideration using <tt>translation_scripts/translate.sh</tt>; results are saved within the <tt>translation_outputs</tt> directory structure;
+3. Get the source document from within the <tt>corpora</tt> directory (or the source document after preprocessing from within the <tt>corpora_preprocessed</tt> directory), and translate it with each MT system under consideration using <tt>translation_scripts/translate.sh</tt>; results are saved within the <tt>translation_outputs</tt> directory structure;
 4. Get the translated documents from within the <tt>translation_outputs</tt> directory, and postprocess them as necessary using <tt>processing_scripts/postprocess.sh</tt>; results are saved within the <tt>mt_postprocessed</tt> directory structure;
 5. Get the postprocessed documents from within the <tt>mt_postprocessed</tt> directory, and score them with each of <tt>scoring_scripts/score_with_comet.sh</tt> and <tt>scoring_scripts/score_with_sacrebleu.sh</tt>; results are saved within the <tt>scoring_outputs</tt> directory structure.
 
