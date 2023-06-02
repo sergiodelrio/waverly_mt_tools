@@ -26,11 +26,16 @@ This convention is somewhat redundant, and necessitates the creation of some nes
 Note what the following filepaths mean, in context:
 
 <tt>corpora/wmt13/es-en/wmt13.es-en.es</tt>: source file for es-en direction
+
 <tt>corpora/wmt13/es-en/wmt13.es-en.en</tt>: target file for es-en direction
+
 <tt>corpora/wmt13/en-es/wmt13.en-es.en</tt>: source file for en-es direction
+
 <tt>corpora/wmt13/en-es/wmt13.en-es.es</tt>: target file for en-es direction
 
+
 <tt>translation_outputs/wmt13/es-en/wmt13.es-en.aws.en</tt>: results of translating the source file for es-en direction from Spanish to English using Amazon Translate
+
 <tt>translation_outputs/wmt13/en-es/wmt13.en-es.aws.es</tt>: results of translating the source file for en-es direction from English to Spanish using Amazon Translate
 
 ### Get example corpus
