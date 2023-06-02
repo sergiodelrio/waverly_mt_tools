@@ -25,12 +25,17 @@ This convention is somewhat redundant, and necessitates the creation of some nes
 
 Note what the following filepaths mean, in context:
 
-> <tt>corpora/wmt13/es-en/wmt13.es-en.es</tt>: source file for es-en direction
-> <tt>corpora/wmt13/es-en/wmt13.es-en.en</tt>: target file for es-en direction
-> <tt>corpora/wmt13/en-es/wmt13.en-es.en</tt>: source file for en-es direction
-> <tt>corpora/wmt13/en-es/wmt13.en-es.es</tt>: target file for en-es direction
-> <tt>translation_outputs/wmt13/es-en/wmt13.es-en.aws.en</tt>: results of translating the source file for es-en direction from Spanish to English using Amazon Translate
-> <tt>translation_outputs/wmt13/en-es/wmt13.en-es.aws.es</tt>: results of translating the source file for en-es direction from English to Spanish using Amazon Translate
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>corpora/wmt13/es-en/wmt13.es-en.es</tt>: source file for es-en direction
+
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>corpora/wmt13/es-en/wmt13.es-en.en</tt>: target file for es-en direction
+
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>corpora/wmt13/en-es/wmt13.en-es.en</tt>: source file for en-es direction
+
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>corpora/wmt13/en-es/wmt13.en-es.es</tt>: target file for en-es direction
+
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>translation_outputs/wmt13/es-en/wmt13.es-en.aws.en</tt>: results of translating the source file for es-en direction from Spanish to English using Amazon Translate
+
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>translation_outputs/wmt13/en-es/wmt13.en-es.aws.es</tt>: results of translating the source file for en-es direction from English to Spanish using Amazon Translate
 
 ### Get example corpus
 The example corpus used is the Workshop on Machine Translation Spanish-English test set from 2013, which is one of the standard test sets in the field of MT.  It is one which the Sacrebleu tool can download, which one can run with <tt>download_example_corpus.sh</tt>.
