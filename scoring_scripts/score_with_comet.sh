@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0,1,2
 MODEL="Unbabel/wmt22-comet-da"
 
 # es-en
@@ -22,7 +22,7 @@ comet-score \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.deepl.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.gt.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.msft.$TL \
-	   --quiet --gpus 0 \
+	   --quiet --gpus 3 \
 	   --model $MODEL \
 	   > $OUT_PATH
 
