@@ -15,11 +15,11 @@ The way I do things is to have, within the main directory of the repo, separate 
 
 1. Get the base corpus—both the source and the reference(s) (for this example, by running <tt>download_example_corpus.sh</tt>); results are saved within the <tt>corpora</tt> directory structure;
 2. Run preprocessing if necessary (not necessary for this example);
-3. Get the source document from within the <tt>corpora</tt> directory (or the source document after preprocessing from within the <tt>corpora_preprocessed</tt> directory), and translate it with each MT system under consideration using <tt>translation_scripts/translate.sh</tt>; results are saved within the <tt>translation_outputs</tt> directory structure;
-4. Get the translated documents from within the <tt>translation_outputs</tt> directory, and postprocess them as necessary using <tt>processing_scripts/postprocess.sh</tt>; results are saved within the <tt>mt_postprocessed</tt> directory structure;
+3. Get the source document from within the <tt>corpora</tt> directory (or the source document after preprocessing from within the <tt>corpora_preprocessed</tt> directory), and translate it with each MT system under consideration using <tt>translation_scripts/translate.sh</tt>; results are saved within the <tt>mt_outputs</tt> directory structure;
+4. Get the translated documents from within the <tt>mt_outputs</tt> directory, and postprocess them as necessary using <tt>processing_scripts/postprocess.sh</tt>; results are saved within the <tt>mt_postprocessed</tt> directory structure;
 5. Get the postprocessed documents from within the <tt>mt_postprocessed</tt> directory, and score them with each of <tt>scoring_scripts/score_with_comet.sh</tt> and <tt>scoring_scripts/score_with_sacrebleu.sh</tt>; results are saved within the <tt>scoring_outputs</tt> directory structure.
 
-The <tt>corpora</tt>, <tt>translation_outputs</tt>, and <tt>mt_postprocessed</tt> directories contain the same substructure within them, which is <tt>…/name_of_corpus/language_direction/</tt>.  In this case, that's <tt>…/wmt13/es-en/</tt>.  The language direction is the two-letter ISO 639-1 code for the source language, followed by a hyphen, then the target language.  The text files themselves are named as <tt>name_of_corpus.language_direction.language</tt>, where <tt>language</tt> is the language present in that individual document.
+The <tt>corpora</tt>, <tt>mt_outputs</tt>, and <tt>mt_postprocessed</tt> directories contain the same substructure within them, which is <tt>…/name_of_corpus/language_direction/</tt>.  In this case, that's <tt>…/wmt13/es-en/</tt>.  The language direction is the two-letter ISO 639-1 code for the source language, followed by a hyphen, then the target language.  The text files themselves are named as <tt>name_of_corpus.language_direction.language</tt>, where <tt>language</tt> is the language present in that individual document.
 
 This convention is somewhat redundant, and necessitates the creation of some nested directories.  In my experience, this significantly reduces confusion and ambiguity down the road.
 
@@ -33,9 +33,9 @@ Note what the following filepaths mean, in context:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<tt>corpora/wmt13/en-es/wmt13.en-es.es</tt>: target file for en-es direction
 
-&nbsp;&nbsp;&nbsp;&nbsp;<tt>translation_outputs/wmt13/es-en/wmt13.es-en.aws.en</tt>: results of translating the source file for es-en direction from Spanish to English using Amazon Translate
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>mt_outputs/wmt13/es-en/wmt13.es-en.aws.en</tt>: results of translating the source file for es-en direction from Spanish to English using Amazon Translate
 
-&nbsp;&nbsp;&nbsp;&nbsp;<tt>translation_outputs/wmt13/en-es/wmt13.en-es.aws.es</tt>: results of translating the source file for en-es direction from English to Spanish using Amazon Translate
+&nbsp;&nbsp;&nbsp;&nbsp;<tt>mt_outputs/wmt13/en-es/wmt13.en-es.aws.es</tt>: results of translating the source file for en-es direction from English to Spanish using Amazon Translate
 
 ### Get example corpus
 The example corpus used is the Workshop on Machine Translation Spanish-English test set from 2013, which is one of the standard test sets in the field of MT.  It is one which the Sacrebleu tool can download, which one can run with <tt>download_example_corpus.sh</tt>.

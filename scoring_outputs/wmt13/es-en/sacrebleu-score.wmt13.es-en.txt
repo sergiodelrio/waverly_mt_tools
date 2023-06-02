@@ -1,4 +1,4 @@
-sacreBLEU: Found 4 systems.
+sacreBLEU: Found 5 systems.
 [
     {
         "system": "../mt_postprocessed/wmt13/es-en/wmt13.es-en.aws.en",
@@ -23,5 +23,11 @@ sacreBLEU: Found 4 systems.
         "BLEU": "37.5",
         "chrF2++": "60.6",
         "TER": "50.8"
+    },
+    {
+        "system": "../mt_postprocessed/wmt13/es-en/wmt13.es-en.openai.en",
+        "BLEU": "34.5",
+        "chrF2++": "58.7",
+        "TER": "54.5"
     }
 ]

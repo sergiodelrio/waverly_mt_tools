@@ -16,6 +16,7 @@ sacrebleu $REF_PATH \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.deepl.$TL \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.gt.$TL \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.msft.$TL \
+	  $TRG_PREFIX/$CORPUS.$SL-$TL.openai.$TL \
        -m bleu chrf ter --chrf-word-order 2 \
 	  2>&1 | tee $OUT_PATH
 

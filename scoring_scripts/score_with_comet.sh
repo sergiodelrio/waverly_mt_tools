@@ -22,6 +22,7 @@ comet-score \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.deepl.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.gt.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.msft.$TL \
+	   $TRG_PREFIX/$CORPUS.$SL-$TL.openai.$TL \
 	   --quiet --gpus 3 \
 	   --model $MODEL \
 	   > $OUT_PATH
