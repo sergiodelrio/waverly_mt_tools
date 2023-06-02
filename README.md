@@ -6,6 +6,8 @@ Created by Andrew Wilkinson (Sorenson)
 
 This repo is to illustrate how I have found it useful to organize and run an MT research project.  Example scripts are provided to use the Amazon, DeepL, Google, and Microsoft translate APIs, as well as one for OpenAI that can be used to translate with GPT-3 (<tt>text-davinci-003</tt>) or GPT-4 with prewritten prompts that I have found to work.  (Just set the <tt>model</tt> variable to <tt>gpt-3</tt> or <tt>gpt-4</tt> in <tt>openai_translate_api.py</tt>.)
 
+This is <b>not</b> intended to be a prescription for how things must be done, but rather a suggestion, guide, reference, or resource.
+
 I have already downloaded the example corpus and run translation, postprocessing, and scoring.  To run steps using a new/different corpus, one would edit the <tt>CORPUS</tt> and associated path variables in each of <tt>translation_scripts/translate.sh</tt>, <tt>processing_scripts/postprocess.sh</tt>, <tt>scoring_scripts/score_with_comet.sh</tt>, and <tt>scoring_scripts/score_with_sacrebleu.sh</tt> to reflect the new name.
 
 ### Get example corpus
