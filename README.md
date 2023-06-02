@@ -4,6 +4,8 @@ Created by Andrew Wilkinson (Sorenson)
 
 ### Overview
 
+N.B.: This repo is curently <b>public</b>.
+
 This repo is to illustrate how I have found it useful to organize and run an MT research project.  Example scripts are provided to use the Amazon, DeepL, Google, and Microsoft translate APIs, as well as one for OpenAI that can be used to translate with GPT-3 (<tt>text-davinci-003</tt>) or GPT-4 with prewritten prompts that I have found to work.  (Just set the <tt>model</tt> variable to <tt>gpt-3</tt> or <tt>gpt-4</tt> in <tt>translation_scripts/openai_translate_api.py</tt>.)
 
 This is <b>not</b> intended to be a prescription for how things must be done, but rather a suggestion, guide, reference, or resource.
