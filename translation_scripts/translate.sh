@@ -5,8 +5,7 @@ TL=en
 CORPUS=wmt13
 SRC_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
 
-#SYSTEM_ARR=(aws deepl gt msft openai)
-SYSTEM_ARR=(aws)
+SYSTEM_ARR=(aws deepl gt msft openai)
 
 for SYS_NAME in ${SYSTEM_ARR[@]}
 do
