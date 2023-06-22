@@ -1,0 +1,33 @@
+sacreBLEU: Found 5 systems.
+[
+    {
+        "system": "../mt_postprocessed/lazy_reads/en-es/lazy_reads.en-es.aws.es",
+        "BLEU": "63.1",
+        "chrF2++": "78.1",
+        "TER": "26.4"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_reads/en-es/lazy_reads.en-es.deepl.es",
+        "BLEU": "59.8",
+        "chrF2++": "75.8",
+        "TER": "28.9"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_reads/en-es/lazy_reads.en-es.gt.es",
+        "BLEU": "88.4",
+        "chrF2++": "94.0",
+        "TER": "6.7"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_reads/en-es/lazy_reads.en-es.msft.es",
+        "BLEU": "71.8",
+        "chrF2++": "84.6",
+        "TER": "19.0"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_reads/en-es/lazy_reads.en-es.openai.es",
+        "BLEU": "60.8",
+        "chrF2++": "77.0",
+        "TER": "27.1"
+    }
+]

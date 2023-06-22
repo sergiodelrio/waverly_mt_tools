@@ -1,0 +1,33 @@
+sacreBLEU: Found 5 systems.
+[
+    {
+        "system": "../mt_postprocessed/lazy_aldi/en-es/lazy_aldi.en-es.aws.es",
+        "BLEU": "63.4",
+        "chrF2++": "78.5",
+        "TER": "25.8"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_aldi/en-es/lazy_aldi.en-es.deepl.es",
+        "BLEU": "58.8",
+        "chrF2++": "75.0",
+        "TER": "30.4"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_aldi/en-es/lazy_aldi.en-es.gt.es",
+        "BLEU": "92.1",
+        "chrF2++": "95.7",
+        "TER": "4.7"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_aldi/en-es/lazy_aldi.en-es.msft.es",
+        "BLEU": "73.7",
+        "chrF2++": "84.3",
+        "TER": "18.0"
+    },
+    {
+        "system": "../mt_postprocessed/lazy_aldi/en-es/lazy_aldi.en-es.openai.es",
+        "BLEU": "60.5",
+        "chrF2++": "76.6",
+        "TER": "27.3"
+    }
+]

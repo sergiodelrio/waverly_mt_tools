@@ -1,8 +1,8 @@
-# es-en
+# en-es
 
-SL=es
-TL=en
-CORPUS=wmt13
+SL=en
+TL=es
+CORPUS=serial
 
 mkdir -p ../mt_postprocessed/$CORPUS/$SL-$TL
 
