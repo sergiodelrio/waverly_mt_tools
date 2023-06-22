@@ -1,0 +1,44 @@
+# Install Miniconda and start an environment
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+bash Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+source ~/.bashrc
+conda create --name waverly_mt_tools_env python=3.9
+conda activate waverly_mt_tools_env                                                                                                                                                                  
+
+
+# Install CUDA (to run COMET with GPU—not required)
+
+sudo apt-get install gcc
+sudo apt-get install make
+sudo apt-get install cmake
+cd ~
+wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+sudo sh cuda_12.1.0_530.30.02_linux.run
+
+
+# Install dependencies
+
+pip install sacrebleu
+pip install boto3
+pip install deepl
+pip install openai
+pip install unbabel-comet
+pip install --upgrade google-cloud-translate
+
+
+# Get your own API keys and credentials for Amazon Translate, DeepL, Google Translate, Microsoft Translator, and OpenAI
+
+# My ~/.bashrc has entries for the following:
+#export GOOGLE_APPLICATION_CREDENTIALS=/home/ubuntu/google_application_credentials.json
+#export PROJECT_ID=
+  # ^^^ this is the same project_id as found in google_application_credentials.json
+#export DEEPL_API_KEY=
+#export MSFT_API_KEY=
+#export OPENAI_API_KEY=
+
+# I put my AWS credentials in ~/.aws/credentials, which has lines for 
+# aws_access_key_id = 
+# aws_secret_access_key = 
+
+

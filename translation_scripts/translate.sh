@@ -6,7 +6,6 @@ CORPUS=serial
 SRC_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
 
 SYSTEM_ARR=(aws deepl gt msft openai)
-#SYSTEM_ARR=(openai)
 
 for SYS_NAME in ${SYSTEM_ARR[@]}
 do
