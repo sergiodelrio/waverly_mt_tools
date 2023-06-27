@@ -2,11 +2,13 @@
 
 SL=en
 TL=es
-CORPUS=serial
+#CORPUS=serial
+CORPUS=pizza
 
 mkdir -p ../scoring_outputs/$CORPUS/$SL-$TL
 
-REF_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$TL"
+#REF_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$TL"
+REF_PATH="../corpora_preprocessed/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$TL"
 TRG_PREFIX="../mt_postprocessed/$CORPUS/$SL-$TL"
 OUT_PATH="../scoring_outputs/$CORPUS/$SL-$TL/sacrebleu-score.$CORPUS.$SL-$TL.txt"
 
@@ -16,7 +18,7 @@ sacrebleu $REF_PATH \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.deepl.$TL \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.gt.$TL \
 	  $TRG_PREFIX/$CORPUS.$SL-$TL.msft.$TL \
-	  $TRG_PREFIX/$CORPUS.$SL-$TL.openai.$TL \
        -m bleu chrf ter --chrf-word-order 2 \
 	  2>&1 | tee $OUT_PATH
 
+	  #$TRG_PREFIX/$CORPUS.$SL-$TL.openai.$TL \

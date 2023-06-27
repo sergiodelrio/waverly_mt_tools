@@ -52,25 +52,32 @@ def change_spelling(text):
     text = text.replace("jinny", "jinni")
     return text
 
+def remove_double_line_spacing(text):
+
+    text = text.replace("\n\n", "\n")
+    return text
+
 
 with open(in_file, "r", encoding="utf-8") as fo, open(out_file, "w", encoding="utf-8") as fw:
 
     in_doc = fo.read()
 
     # Left double quotation mark → quotation mark
-    doc_with_replacements = in_doc.replace('“', '"')
+    #doc_with_replacements = in_doc.replace('“', '"')
 
     # Right double quotation mark → quotation mark
-    doc_with_replacements = doc_with_replacements.replace('”', '"')
+    #doc_with_replacements = doc_with_replacements.replace('”', '"')
 
     # Left single quotation mark → apostrophe 
-    doc_with_replacements = doc_with_replacements.replace("‘", "'")
+    #doc_with_replacements = doc_with_replacements.replace("‘", "'")
 
     # Acute accent → apostrophe 
-    doc_with_replacements = doc_with_replacements.replace("´", "'")
+    #doc_with_replacements = doc_with_replacements.replace("´", "'")
 
     # Right single quotation mark → apostrophe
-    doc_with_replacements = doc_with_replacements.replace("’", "'")
+    #doc_with_replacements = doc_with_replacements.replace("’", "'")
+
+    doc_with_replacements = remove_double_line_spacing(in_doc)
 
     if "serial" in in_file or "serial" in out_file:
         doc_with_replacements = remove_speaker_tags_serial(doc_with_replacements)
