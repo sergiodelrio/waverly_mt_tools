@@ -1,11 +1,11 @@
 export CUDA_VISIBLE_DEVICES=0,1,2
 MODEL="Unbabel/wmt22-comet-da"
 
-# es-en
+# en-es
 
-SL=es
-TL=en
-CORPUS=wmt13
+SL=en
+TL=es
+CORPUS=serial
 
 mkdir -p ../scoring_outputs/$CORPUS/$SL-$TL
 

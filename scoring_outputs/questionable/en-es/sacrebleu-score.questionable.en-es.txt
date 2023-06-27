@@ -1,0 +1,33 @@
+sacreBLEU: Found 5 systems.
+[
+    {
+        "system": "../mt_postprocessed/questionable/en-es/questionable.en-es.aws.es",
+        "BLEU": "66.0",
+        "chrF2++": "80.5",
+        "TER": "23.6"
+    },
+    {
+        "system": "../mt_postprocessed/questionable/en-es/questionable.en-es.deepl.es",
+        "BLEU": "59.2",
+        "chrF2++": "75.2",
+        "TER": "29.5"
+    },
+    {
+        "system": "../mt_postprocessed/questionable/en-es/questionable.en-es.gt.es",
+        "BLEU": "94.1",
+        "chrF2++": "97.0",
+        "TER": "3.5"
+    },
+    {
+        "system": "../mt_postprocessed/questionable/en-es/questionable.en-es.msft.es",
+        "BLEU": "75.5",
+        "chrF2++": "86.5",
+        "TER": "16.0"
+    },
+    {
+        "system": "../mt_postprocessed/questionable/en-es/questionable.en-es.openai.es",
+        "BLEU": "61.8",
+        "chrF2++": "77.8",
+        "TER": "26.1"
+    }
+]
