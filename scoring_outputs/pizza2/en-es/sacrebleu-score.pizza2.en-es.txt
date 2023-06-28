@@ -1,0 +1,33 @@
+sacreBLEU: Found 5 systems.
+[
+    {
+        "system": "../mt_postprocessed/pizza2/en-es/pizza2.en-es.aws.es",
+        "BLEU": "57.1",
+        "chrF2++": "72.9",
+        "TER": "32.3"
+    },
+    {
+        "system": "../mt_postprocessed/pizza2/en-es/pizza2.en-es.deepl.es",
+        "BLEU": "61.4",
+        "chrF2++": "75.0",
+        "TER": "28.6"
+    },
+    {
+        "system": "../mt_postprocessed/pizza2/en-es/pizza2.en-es.gt.es",
+        "BLEU": "53.6",
+        "chrF2++": "71.9",
+        "TER": "33.1"
+    },
+    {
+        "system": "../mt_postprocessed/pizza2/en-es/pizza2.en-es.msft.es",
+        "BLEU": "57.6",
+        "chrF2++": "73.6",
+        "TER": "31.2"
+    },
+    {
+        "system": "../mt_postprocessed/pizza2/en-es/pizza2.en-es.openai.es",
+        "BLEU": "51.2",
+        "chrF2++": "69.5",
+        "TER": "36.8"
+    }
+]

@@ -15,13 +15,13 @@ do
 
 	# Process source-language file
 	python misc_edits.py \
-		../corpora/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL"-"$TL"."$SL" \
-		../corpora_preprocessed/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL"-"$TL"."$SL"
+		../corpora/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL" \
+		../corpora_preprocessed/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL"
 
 	# Process target-language file
 	python misc_edits.py \
-		../corpora/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL"-"$TL"."$TL" \
-		../corpora_preprocessed/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$SL"-"$TL"."$TL"
+		../corpora/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$TL" \
+		../corpora_preprocessed/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"."$TL"
 
 done
 

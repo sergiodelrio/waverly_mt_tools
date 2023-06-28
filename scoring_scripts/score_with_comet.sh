@@ -6,7 +6,7 @@ MODEL="Unbabel/wmt22-comet-da"
 SL=en
 TL=es
 #CORPUS=serial
-CORPUS=pizza
+CORPUS=pizza2
 
 mkdir -p ../scoring_outputs/$CORPUS/$SL-$TL
 
@@ -25,6 +25,7 @@ comet-score \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.deepl.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.gt.$TL \
 	   $TRG_PREFIX/$CORPUS.$SL-$TL.msft.$TL \
+	   $TRG_PREFIX/$CORPUS.$SL-$TL.openai.$TL \
 	   --quiet --gpus 2 \
 	   --model $MODEL \
 	   > $OUT_PATH
