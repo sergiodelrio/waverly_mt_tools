@@ -2,12 +2,11 @@
 
 SL=en
 TL=es
-#CORPUS=serial
-CORPUS=pizza
-#SRC_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
+CORPUS=netflix
 SRC_PATH="../corpora_preprocessed/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
 
-SYSTEM_ARR=(aws deepl gt msft)
+#SYSTEM_ARR=(aws deepl gt msft)
+SYSTEM_ARR=(openai)
 
 for SYS_NAME in ${SYSTEM_ARR[@]}
 do
