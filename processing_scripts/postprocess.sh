@@ -2,13 +2,11 @@
 
 SL=en
 TL=es
-#CORPUS=serial
-CORPUS=pizza2
+CORPUS=netflix
 
 mkdir -p ../mt_postprocessed/$CORPUS/$SL-$TL
 
 SYSTEM_ARR=(aws deepl gt msft openai)
-#SYSTEM_ARR=(aws deepl gt msft)
 
 for SYS_NAME in ${SYSTEM_ARR[@]}
 do

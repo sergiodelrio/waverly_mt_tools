@@ -1,0 +1,33 @@
+sacreBLEU: Found 5 systems.
+[
+    {
+        "system": "../mt_postprocessed/netflix/en-es/netflix.en-es.aws.es",
+        "BLEU": "36.2",
+        "chrF2++": "60.7",
+        "TER": "52.1"
+    },
+    {
+        "system": "../mt_postprocessed/netflix/en-es/netflix.en-es.deepl.es",
+        "BLEU": "39.1",
+        "chrF2++": "62.2",
+        "TER": "50.1"
+    },
+    {
+        "system": "../mt_postprocessed/netflix/en-es/netflix.en-es.gt.es",
+        "BLEU": "39.7",
+        "chrF2++": "63.3",
+        "TER": "49.9"
+    },
+    {
+        "system": "../mt_postprocessed/netflix/en-es/netflix.en-es.msft.es",
+        "BLEU": "40.7",
+        "chrF2++": "64.4",
+        "TER": "48.8"
+    },
+    {
+        "system": "../mt_postprocessed/netflix/en-es/netflix.en-es.openai.es",
+        "BLEU": "36.5",
+        "chrF2++": "61.0",
+        "TER": "53.4"
+    }
+]

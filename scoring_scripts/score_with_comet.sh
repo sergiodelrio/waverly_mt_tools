@@ -5,15 +5,12 @@ MODEL="Unbabel/wmt22-comet-da"
 
 SL=en
 TL=es
-#CORPUS=serial
-CORPUS=pizza2
+CORPUS=netflix
 
 mkdir -p ../scoring_outputs/$CORPUS/$SL-$TL
 
-#SRC_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
-SRC_PATH="../corpora_preprocessed/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
-#REF_PATH="../corpora/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$TL"
-REF_PATH="../corpora_preprocessed/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$TL"
+SRC_PATH=../corpora_preprocessed/$CORPUS/$SL-$TL/"$CORPUS"_edited_split.$SL-$TL.$SL
+REF_PATH=../corpora_preprocessed/$CORPUS/$SL-$TL/"$CORPUS"_edited_split.$SL-$TL.$TL
 TRG_PREFIX="../mt_postprocessed/$CORPUS/$SL-$TL"
 OUT_PATH="../scoring_outputs/$CORPUS/$SL-$TL/comet-score.$CORPUS.$SL-$TL.txt"
 

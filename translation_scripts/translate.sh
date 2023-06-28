@@ -3,7 +3,7 @@
 SL=en
 TL=es
 CORPUS=netflix
-SRC_PATH="../corpora_preprocessed/$CORPUS/$SL-$TL/$CORPUS.$SL-$TL.$SL"
+SRC_PATH=../corpora_preprocessed/"$CORPUS"/"$SL"-"$TL"/"$CORPUS"_edited_split."$SL"-"$TL"."$SL"
 
 SYSTEM_ARR=(aws deepl gt msft openai)
 
