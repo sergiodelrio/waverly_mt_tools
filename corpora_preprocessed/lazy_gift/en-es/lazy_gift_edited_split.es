@@ -5,8 +5,7 @@ Entonces, ponemos expectativas emocionales en nosotros mismos para alcanzar el n
 Entonces, es demasiada presión de la que necesitamos liberarnos, ¿de acuerdo?
 Tratar de crear o dar el regalo perfecto a cada persona, cada ocasión, es tratar de ser un genio respecto al aspecto equivocado.
 Porque no lo vas a lograr, no hay manera de que des el regalo perfecto en cada ocasión.
-El regalo que hace decir a esa persona "¡Este es el mejor regalo que he recibido!
-", ¡eso no existe!
+El regalo que hace decir a esa persona "¡Este es el mejor regalo que he recibido!", ¡eso no existe!
 Y te encontrarás con eso en cada ocasión, aunque sea en esa única ocasión, esperando el milagro de que puedan decir eso, eso significa que la siguiente ocasión, ¿lo harás aún mejor?
 O al menos eso es lo que nos decimos.
 Entonces, el primer paso para ser un genio perezoso al comprar un regalo es liberarnos de la tensión y la expectativa de este terrible mito del regalo perfecto.
