@@ -6,8 +6,7 @@ Conforme me voy sintiendo más familiar con los mitos y leyendas a un punto al q
 Y, cuando digo leyendas urbanas, no están necesariamente situadas en la ciudad, se deben ver como, como una especie de un tipo moderno de la versión activa del folklor, y hoy será un poco diferente.
 Abarcaré un amplio rango de historias y hablaré acerca de algunas que me gustan mucho y les daré mis opiniones sin cualificación de leyendas y de desinformación.
 Mike parpadeó y despertó, traía la boca seca y necesitaba ir al baño, se había quedado dormido en el sillón, de nuevo.
-Inclinó la cabeza hacía la tele, estaban pasando una comedia de principios de los 90s y miró en su teléfono, eran las 3 a.m.
-se recostó e intentó encontrar la voluntad para volver a dormir, pero ya necesitaba ir al baño.
+Inclinó la cabeza hacía la tele, estaban pasando una comedia de principios de los 90s y miró en su teléfono, eran las 3 a.m. se recostó e intentó encontrar la voluntad para volver a dormir, pero ya necesitaba ir al baño.
 Además, la luz de su celular ya había encandilado sus ojos y había leído en algún lado que eso aniquilaba la producción de melatonina o algo así, Mike suspiró y decidió que era mejor intentar dormir en su cama, se sentó en el sillón y miró hacia la puerta corrediza de cristal.
 Era una noche callada y fría de finales de enero, había aproximadamente un pie de altura de nieve en el patio.
 Y la luz pálida de la luna creciente brillaba a través de las ramas enredadas sin hojas de los árboles, hasta más allá de su propiedad y rebotaba en la nieve dándole a la noche un brillo escalofriante.
@@ -28,7 +27,7 @@ Sin querer observar a su alrededor, Mike se dirigió a la puerta principal, la a
 Entraron con él y le ayudaron a buscar en cada habitación, casi no le creen hasta que vieron las pisadas y la puerta abierta.
 Observaron en la nieve en el patio y pudieron ver pisadas provenientes del bosque, cerraron la puerta, prendieron todas las luces y volvieron a buscar a fondo.
 Verificaron cada espacio oculto, la porción de ático de Mike, todo.
-Simplemente no pudieron encontrar al extraño  con cuchillo empuñado.
+Simplemente no pudieron encontrar al extraño con cuchillo empuñado.
 Ahí fue cuando uno de los policías notó algo, estaba observando las pisadas, luego puso su mano en su boca, y se paró, observó  la puerta corrediza y miró a Mike, su boca abierta, respiró profundo y luego le explicó.
 Averiguó que las pisadas, estaban yendo en dirección equivocada, el hombre no se estaba acercando a la puerta corrediza desde fuera, Mike había observado el reflejo del hombre en la ventana, el hombre ya se encontraba dentro de la casa y ya estaba detrás de Mike con el cuchillo de fuera, cuando Mike gritó y corrió hacia el baño.
 El hombre, iluminado por la tele y por el reflejo de la ventana, solo dio la apariencia de acercarse desde fuera.
