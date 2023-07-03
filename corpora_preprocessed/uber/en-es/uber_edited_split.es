@@ -125,7 +125,8 @@ Honestamente, no pueden ser más de cien dólares al mes, pero en realidad gasta
 Rocket Money, es una aplicación financiera personal que encuentra y cancela las suscripciones que ya no quieres.
 También monitorea tus gastos y te ayuda a bajar el costo de cuentas, todo en un mismo lugar.
 Te va a recordar que eres un miembro plus en DoorDash, aunque no hayas utilizado DoorDash en meses, y te va a recordar de aquel tiempo que te inscribiste a una prueba gratis, y esa prueba gratis termina mañana.
-Deja de tirar tu dinero, cancela todas las suscripciones que no deseas y administra tus gastos de la manera fácil entrando a rocketmoney.com/tboy, repetimos rocketmoney.com diagonal T-B-O-Y.
+Deja de tirar tu dinero, cancela todas las suscripciones que no deseas y administra tus gastos de la manera fácil entrando a rocketmoney.com/tboy.
+Repetimos rocketmoney.com diagonal T-B-O-Y.
 rocketmoney.com/tboy.
 En nuestra segunda historia, Adobe acaba de lanzar Firefly para transformar tu imaginación en imagen.
 Es inteligencia artificial, pero también puede crear realidad artificial.
